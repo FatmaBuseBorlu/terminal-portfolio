@@ -1,6 +1,6 @@
 const profile = {
   name: "Fatma Buse Borlu",
-  role: "Junior Full Stack .NET Developer",
+  role: "Full Stack .NET Developer",
   location: "Istanbul, Turkiye",
   github: "https://github.com/FatmaBuseBorlu",
   linkedin: "https://www.linkedin.com/in/fatma-buse-borlu-36537519b/",
@@ -71,7 +71,8 @@ const commands = {
     <p>about, skills, projects, open &lt;project&gt;, roadmap, certs, contact, github, clear</p>
   `),
   about: () => card(`
-    <p><span class="accent-amber">${profile.name}</span> is a ${profile.role} focused on backend systems, REST APIs, SQL-backed applications, and maintainable .NET architecture.</p>
+    <p><span class="accent-amber">${profile.name}</span> is a ${profile.role} based in ${profile.location}, focused on backend systems, REST APIs, SQL-backed applications, and maintainable .NET architecture.</p>
+    <p>Computer Engineering graduate and M.Sc. candidate working on deep learning-based emotion recognition, EEG signal processing, and affective computing.</p>
     <p>Current direction: become job-ready for .NET backend roles in fintech, banking, SaaS, and product teams.</p>
     <p>Core signal: C#, ASP.NET Core, Entity Framework Core, SQL Server, clean architecture, Git, and practical project delivery.</p>
   `),
